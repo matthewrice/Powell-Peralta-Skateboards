@@ -5811,66 +5811,84 @@ button.close {
     display: none !important; } }
 .wrapper {
   max-width: 100%;
+  position: relative;
   background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/bg.jpg") no-repeat;
   background-size: cover; }
+  .wrapper:before {
+    content: "";
+    background-color: rgba(40, 40, 40, 0.9);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+
+.subscribe-link {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 20px;
+  position: absolute; }
 
 .social-links {
   float: right; }
   .social-links li {
     display: inline-block; }
+    .social-links li a {
+      text-decoration: none; }
 
 .social {
   position: relative;
   float: right;
   padding: 2px;
-  margin-top: 2px; }
+  margin-top: 10px; }
   .social i {
     border-bottom: 2px solid #929392; }
 
 .face {
   background-color: #424C8F;
-  font-size: 20px;
+  font-size: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
   color: #757DB2;
   text-align: center;
-  width: 38px;
+  width: 31px;
   transition: background-color 0.5s; }
   .face:hover {
     background-color: #7780c0; }
 
 .rss {
   background-color: #D5901A;
-  font-size: 20px;
+  font-size: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
   color: #757DB2;
   text-align: center;
-  width: 38px;
+  width: 31px;
   transition: background-color 0.5s; }
   .rss:hover {
     background-color: #edbc68; }
 
 .twitter {
   background-color: #6689C9;
-  font-size: 20px;
+  font-size: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
   color: #757DB2;
   text-align: center;
-  width: 38px;
+  width: 31px;
   transition: background-color 0.5s; }
   .twitter:hover {
     background-color: #b1c3e4; }
 
 .youtube {
   background-color: #C21F17;
-  font-size: 20px;
+  font-size: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
   color: #757DB2;
   text-align: center;
-  width: 38px;
+  width: 31px;
   transition: background-color 0.5s; }
   .youtube:hover {
     background-color: #eb5b54; }
@@ -5878,57 +5896,143 @@ button.close {
 .informational-links {
   padding: 0; }
 
-.inform {
+.informational-links a {
   display: block;
+  max-width: 100%;
   text-align: center;
-  text-transform: uppercase;
   background-color: #C50017;
-  color: #EAEAE8;
-  text-decoration: none;
-  border-bottom: 2px solid #929392; }
+  border-bottom: 2px solid #929392;
+  text-decoration: none; }
+  .informational-links a .button-links {
+    max-width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EAEAE8;
+    padding: 10px 0; }
+
+.m-dash {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold; }
 
 .top-image {
   max-width: 100%;
+  position: relative;
   background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/top-image.png") no-repeat;
-  background-size: cover; }
-  .top-image .peralta-logo {
+  background-size: cover;
+  border: 6px solid white;
+  margin-top: 10px; }
+  .top-image:before {
+    content: "";
+    background-color: rgba(156, 156, 156, 0.4);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+
+.peralta-logo {
+  position: relative;
+  margin-top: 65px;
+  margin-bottom: 45px;
+  max-width: 100%;
+  float: left; }
+  .peralta-logo img {
     position: relative;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    max-width: 100%;
-    float: left; }
-    .top-image .peralta-logo img {
-      position: relative;
-      width: 65%; }
+    height: 170px; }
+
+.slide-controls {
+  text-align: center;
+  padding: 15px; }
+
+.read-topics {
+  margin-bottom: 10px; }
 
 .topic {
-  background-color: white; }
+  background-color: white;
+  padding: 10px;
+  height: 300px; }
 
-.lance {
-  max-width: 120%;
+.topic1 .details {
+  margin-bottom: 35px; }
+
+.topic3 .title {
+  margin-bottom: 40px; }
+
+.title {
+  font-size: 20px; }
+
+.date {
+  color: #bfbfbf; }
+
+.details {
+  line-height: 28px; }
+
+.read-more {
+  text-align: center;
+  color: #c20019; }
+
+.skater h2 {
+  border: 5px solid white;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold; }
+
+.skater1 {
   background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/sk8er-4.png") no-repeat;
   background-size: cover; }
 
-.rodney {
-  max-width: 120%;
+.lance {
+  height: 200px;
+  padding-top: 25px; }
+
+.skater2 {
   background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/sk8er-3.png") no-repeat;
   background-size: cover; }
 
-.tommy {
-  max-width: 120%;
+.rodney {
+  height: 200px;
+  padding-top: 25px; }
+
+.skater3 {
   background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/sk8er-2.png") no-repeat;
   background-size: cover; }
 
-.steve {
-  max-width: 120%;
+.tommy {
+  height: 200px;
+  padding-top: 25px; }
+
+.skater4 {
   background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/sk8er-1.png") no-repeat;
   background-size: cover; }
 
-.skateboard-images {
+.steve {
+  height: 400px;
+  padding-top: 160px; }
+
+.skateboard-pictures {
+  background-color: white;
+  margin-bottom: 30px; }
+  .skateboard-pictures img {
+    max-width: 100%;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 285px;
+    padding-left: 32px; }
+
+.contact-us-form {
+  position: absolute;
   background-color: white; }
 
-.contact-form {
-  background-color: white; }
+.contact-us {
+  margin-top: 25px; }
+
+.more-info {
+  font-size: 20px; }
+
+.form-details {
+  line-height: 28px; }
 
 .form-social {
   position: relative;
@@ -5936,9 +6040,18 @@ button.close {
   padding: 2px;
   margin-top: 2px; }
 
-.form-social li a i {
-  border: none;
-  text-decoration: none; }
+.enter-contact-info {
+  margin-top: 18px; }
+
+.message-line {
+  height: 150px; }
+
+.submit-button {
+  position: relative;
+  float: right;
+  background-color: #c50017;
+  color: white;
+  width: 200px; }
 
 .face-form {
   background-color: #4F4F4F;
@@ -5947,10 +6060,7 @@ button.close {
   padding-bottom: 10px;
   color: #9D9D9D;
   text-align: center;
-  width: 38px;
-  transition: background-color 0.5s; }
-  .face-form:hover {
-    background-color: #828282; }
+  width: 38px; }
 
 .rss-form {
   background-color: #ADADAD;
@@ -5959,10 +6069,7 @@ button.close {
   padding-bottom: 10px;
   color: #9D9D9D;
   text-align: center;
-  width: 38px;
-  transition: background-color 0.5s; }
-  .rss-form:hover {
-    background-color: #e0e0e0; }
+  width: 38px; }
 
 .twitter-form,
 .youtube-form {
@@ -5972,10 +6079,6 @@ button.close {
   padding-bottom: 10px;
   color: #9D9D9D;
   text-align: center;
-  width: 38px;
-  transition: background-color 0.5s; }
-  .twitter-form:hover,
-  .youtube-form:hover {
-    background-color: #a8a8a8; }
+  width: 38px; }
 
 /*# sourceMappingURL=main.css.map */
