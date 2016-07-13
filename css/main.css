@@ -5812,7 +5812,7 @@ button.close {
 .wrapper {
   max-width: 100%;
   position: relative;
-  background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/bg.jpg") no-repeat;
+  background: url("../images/skateboard-images/bg.jpg") no-repeat;
   background-size: cover; }
   .wrapper:before {
     content: "";
@@ -5918,7 +5918,7 @@ button.close {
 .top-image {
   max-width: 100%;
   position: relative;
-  background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/top-image.png") no-repeat;
+  background: url("../images/skateboard-images/top-image.png") no-repeat;
   background-size: cover;
   border: 6px solid white;
   margin-top: 10px; }
@@ -5980,7 +5980,7 @@ button.close {
   font-weight: bold; }
 
 .skater1 {
-  background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/sk8er-4.png") no-repeat;
+  background: url("../images/skateboard-images/sk8er-4.png") no-repeat;
   background-size: cover; }
 
 .lance {
@@ -5988,7 +5988,7 @@ button.close {
   padding-top: 25px; }
 
 .skater2 {
-  background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/sk8er-3.png") no-repeat;
+  background: url("../images/skateboard-images/sk8er-3.png") no-repeat;
   background-size: cover; }
 
 .rodney {
@@ -5996,7 +5996,7 @@ button.close {
   padding-top: 25px; }
 
 .skater3 {
-  background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/sk8er-2.png") no-repeat;
+  background: url("../images/skateboard-images/sk8er-2.png") no-repeat;
   background-size: cover; }
 
 .tommy {
@@ -6004,7 +6004,7 @@ button.close {
   padding-top: 25px; }
 
 .skater4 {
-  background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/sk8er-1.png") no-repeat;
+  background: url("../images/skateboard-images/sk8er-1.png") no-repeat;
   background-size: cover; }
 
 .steve {

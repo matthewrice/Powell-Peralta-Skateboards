@@ -11,7 +11,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
 .wrapper{
   max-width: 100%;
   position: relative;
-  background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/bg.jpg") no-repeat;
+  background: url("../images/skateboard-images/bg.jpg") no-repeat;
   background-size: cover;
 
   &:before{
@@ -116,7 +116,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
 .top-image{
   max-width: 100%;
   position: relative;
-  background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/top-image.png") no-repeat;
+  background: url("../images/skateboard-images/top-image.png") no-repeat;
   background-size: cover;
   border: 6px solid white;
   margin-top: 10px;
@@ -200,7 +200,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
 }
 
 .skater1{
-  background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/sk8er-4.png") no-repeat;
+  background: url("../images/skateboard-images/sk8er-4.png") no-repeat;
   background-size: cover;
 }
 
@@ -210,7 +210,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
 }
 
 .skater2{
-  background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/sk8er-3.png") no-repeat;
+  background: url("../images/skateboard-images/sk8er-3.png") no-repeat;
   background-size: cover;
 }
 
@@ -220,7 +220,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
 }
 
 .skater3{
-  background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/sk8er-2.png") no-repeat;
+  background: url("../images/skateboard-images/sk8er-2.png") no-repeat;
   background-size: cover;
 }
 
@@ -230,7 +230,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
 }
 
 .skater4{
-  background: url("/Users/matthewrice/Documents/code/2.2-sass-bootstrap/images/skateboard-images/sk8er-1.png") no-repeat;
+  background: url("../images/skateboard-images/sk8er-1.png") no-repeat;
   background-size: cover;
 }
 
