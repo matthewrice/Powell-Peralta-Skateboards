@@ -25,10 +25,16 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
   }
 }
 
+.subscribe-contain{
+  a{
+    text-decoration: none;
+    color: white;
+  }
+}
+
 .subscribe-link{
   font-size: 15px;
   text-transform: uppercase;
-  color: white;
   margin-top: 20px;
   position: absolute;;
 }
@@ -157,7 +163,8 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
 .topic{
   background-color: white;
   padding: 10px;
-  height: 300px;
+  height: 310px;
+  width: 100%;
 }
 
 .topic1{
@@ -187,6 +194,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
 .read-more{
   text-align: center;
   color: rgb(194, 0, 25);
+  margin-bottom: 0;
   // margin-bottom: 30px;
 }
 
@@ -220,17 +228,18 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
 }
 
 .skater3{
-  background: url("../images/skateboard-images/sk8er-2.png") no-repeat;
+  background: url("../images/skateboard-images/sk8er-1.png") no-repeat;
   background-size: cover;
 }
 
 .tommy{
-  height: 200px;
+  height: 630px;
+  width: 100%;
   padding-top: 25px;
 }
 
 .skater4{
-  background: url("../images/skateboard-images/sk8er-1.png") no-repeat;
+  background: url("../images/skateboard-images/sk8er-2.png") no-repeat;
   background-size: cover;
 }
 
@@ -272,10 +281,14 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
 }
 
 // form social are the social links inside the form.
+.bottom-section{
+  padding-top: 20px;
+}
+
 .form-social{
   position: relative;
   float: left;
-  padding: 2px;
+  padding: 0;
   margin-top: 2px;
 }
 
@@ -295,6 +308,10 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
   width: 200px;
 }
 
+.bottom-social{
+  padding: 0;
+}
+
 @mixin form-social($color){
   background-color: $color;
   font-size: 20px;
@@ -303,6 +320,10 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
   color: #9D9D9D;
   text-align: center;
   width: 38px;
+
+  &:hover{
+    background-color: lighten($color, 20);
+  }
 }
 
 .face-form{
@@ -316,4 +337,8 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
 .twitter-form,
 .youtube-form{
   @include form-social(#757575);
+}
+
+.contact-form{
+  margin-bottom: 30px;
 }
