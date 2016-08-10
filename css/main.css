@@ -5935,18 +5935,16 @@ button.close {
     right: 0; }
 
 .peralta-logo {
-  position: relative;
-  margin-top: 65px;
-  margin-bottom: 45px;
-  max-width: 100%;
-  float: left; }
-  .peralta-logo img {
-    position: relative;
-    height: 170px; }
+  margin-top: 14vh;
+  margin-bottom: 10vh;
+  width: 38%; }
 
 .slide-controls {
   text-align: center;
   padding: 15px; }
+
+.skateTopics {
+  padding: 0; }
 
 .read-topics {
   margin-bottom: 10px; }
@@ -5954,7 +5952,6 @@ button.close {
 .topic {
   background-color: white;
   padding: 10px;
-  height: 310px;
   width: 100%; }
 
 .topic1 .details {
@@ -5977,6 +5974,12 @@ button.close {
   color: #c20019;
   margin-bottom: 0; }
 
+.skaterSection {
+  padding: 0; }
+
+.skaterSpotlight {
+  padding: 0; }
+
 .skater h2 {
   border: 5px solid white;
   color: white;
@@ -5984,55 +5987,51 @@ button.close {
   font-size: 60px;
   font-weight: bold; }
 
-.skater1 {
+.lancePic {
   background: url("../images/skateboard-images/sk8er-4.png") no-repeat;
   background-size: cover; }
+  .lancePic .lanceName {
+    height: 200px;
+    padding-top: 25px; }
 
-.lance {
-  height: 200px;
-  padding-top: 25px; }
-
-.skater2 {
+.rodneyPic {
   background: url("../images/skateboard-images/sk8er-3.png") no-repeat;
   background-size: cover; }
+  .rodneyPic .rodneyName {
+    height: 200px;
+    padding-top: 25px; }
 
-.rodney {
-  height: 200px;
-  padding-top: 25px; }
-
-.skater3 {
+.stevePic {
   background: url("../images/skateboard-images/sk8er-1.png") no-repeat;
   background-size: cover; }
+  .stevePic .steveName {
+    height: 400px;
+    padding-top: 160px; }
 
-.tommy {
-  height: 630px;
-  width: 100%;
-  padding-top: 25px; }
-
-.skater4 {
+.tommyPic {
   background: url("../images/skateboard-images/sk8er-2.png") no-repeat;
   background-size: cover; }
-
-.steve {
-  height: 400px;
-  padding-top: 160px; }
+  .tommyPic .tommyName {
+    height: 630px;
+    width: 100%;
+    padding-top: 25px; }
 
 .skateboard-pictures {
   background-color: white;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  padding-left: 2.5vw;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw; }
   .skateboard-pictures img {
-    max-width: 100%;
-    margin-left: 4px;
-    margin-right: 4px;
-    height: 285px;
-    padding-left: 32px; }
+    width: 8vw;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw; }
 
-.contact-us-form {
-  position: absolute;
-  background-color: white; }
-
-.contact-us {
-  margin-top: 25px; }
+.bottom-section {
+  background-color: white;
+  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px; }
 
 .more-info {
   font-size: 20px; }
@@ -6040,30 +6039,9 @@ button.close {
 .form-details {
   line-height: 28px; }
 
-.bottom-section {
-  padding-top: 20px; }
-
-.form-social {
-  position: relative;
-  float: left;
+.bottom-social-links {
   padding: 0;
   margin-top: 2px; }
-
-.enter-contact-info {
-  margin-top: 18px; }
-
-.message-line {
-  height: 150px; }
-
-.submit-button {
-  position: relative;
-  float: right;
-  background-color: #c50017;
-  color: white;
-  width: 200px; }
-
-.bottom-social {
-  padding: 0; }
 
 .face-form {
   background-color: #4F4F4F;
@@ -6072,7 +6050,7 @@ button.close {
   padding-bottom: 10px;
   color: #9D9D9D;
   text-align: center;
-  width: 38px; }
+  width: 100%; }
   .face-form:hover {
     background-color: #828282; }
 
@@ -6083,7 +6061,7 @@ button.close {
   padding-bottom: 10px;
   color: #9D9D9D;
   text-align: center;
-  width: 38px; }
+  width: 100%; }
   .rss-form:hover {
     background-color: #e0e0e0; }
 
@@ -6095,12 +6073,38 @@ button.close {
   padding-bottom: 10px;
   color: #9D9D9D;
   text-align: center;
-  width: 38px; }
+  width: 100%; }
   .twitter-form:hover,
   .youtube-form:hover {
     background-color: #a8a8a8; }
 
 .contact-form {
-  margin-bottom: 30px; }
+  padding-bottom: 30px; }
+  .contact-form .contact-info input {
+    width: 100%; }
+
+.name {
+  margin-top: 5px; }
+
+.email,
+.message,
+.submit {
+  margin-top: 15px; }
+
+.name,
+.email,
+.message,
+.submit {
+  border-radius: 5px;
+  border: 1px solid grey; }
+
+.message {
+  height: 150px; }
+
+.submit {
+  float: right;
+  background-color: #c50017;
+  color: white;
+  width: 40%; }
 
 /*# sourceMappingURL=main.css.map */

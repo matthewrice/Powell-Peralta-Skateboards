@@ -25,6 +25,8 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
   }
 }
 
+
+/////////////////////////////////// NAV BAR ////////////////////////////////////
 .subscribe-contain{
   a{
     text-decoration: none;
@@ -92,6 +94,8 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
   @include social(#C21F17);
 }
 
+
+///////////////////////////// INFORMATIONAL LINKS //////////////////////////////
 .informational-links{
   padding: 0;
 }
@@ -119,6 +123,8 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
   font-weight: bold;
 }
 
+
+//////////////////////////////// TOP IMAGE ////////////////////////////////////
 .top-image{
   max-width: 100%;
   position: relative;
@@ -138,22 +144,20 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
 }
 
 .peralta-logo{
-  position: relative;
-  margin-top: 65px;
-  margin-bottom: 45px;
-  max-width: 100%;
-  float: left;
-
-  img{
-    position: relative;
-    height: 170px;
-    // width: 80%;
-  }
+  margin-top: 14vh;
+  margin-bottom: 10vh;
+  width: 38%;
 }
 
 .slide-controls{
   text-align: center;
   padding: 15px;
+}
+
+
+////////////////////////////// SKATE TOPICS ////////////////////////////////////
+.skateTopics{
+  padding: 0;
 }
 
 .read-topics{
@@ -163,7 +167,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
 .topic{
   background-color: white;
   padding: 10px;
-  height: 310px;
+  // height: 310px;
   width: 100%;
 }
 
@@ -198,7 +202,15 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
   // margin-bottom: 30px;
 }
 
-// Famous Skateboarders
+//////////////////////////// FAMOUS SKATEBOARDERS //////////////////////////////
+.skaterSection{
+  padding: 0;
+}
+
+.skaterSpotlight{
+  padding: 0;
+}
+
 .skater h2{
   border: 5px solid white;
   color: white;
@@ -207,71 +219,74 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
   font-weight: bold;
 }
 
-.skater1{
+.lancePic{
   background: url("../images/skateboard-images/sk8er-4.png") no-repeat;
   background-size: cover;
-}
 
-.lance{
-  height: 200px;
-  padding-top: 25px;
-}
-
-.skater2{
-  background: url("../images/skateboard-images/sk8er-3.png") no-repeat;
-  background-size: cover;
-}
-
-.rodney{
-  height: 200px;
-  padding-top: 25px;
-}
-
-.skater3{
-  background: url("../images/skateboard-images/sk8er-1.png") no-repeat;
-  background-size: cover;
-}
-
-.tommy{
-  height: 630px;
-  width: 100%;
-  padding-top: 25px;
-}
-
-.skater4{
-  background: url("../images/skateboard-images/sk8er-2.png") no-repeat;
-  background-size: cover;
-}
-
-.steve{
-  height: 400px;
-  padding-top: 160px;
-}
-
-// Skateboard Pictures
-.skateboard-pictures{
-  background-color: white;
-  margin-bottom: 30px;
-
-  img{
-    max-width: 100%;
-    margin-left: 4px;
-    margin-right: 4px;
-    height: 285px;
-    padding-left: 32px;
+  .lanceName{
+    height: 200px;
+    padding-top: 25px;
   }
 }
 
-// Contact Us Form
-.contact-us-form{
-  position: absolute;
+.rodneyPic{
+  background: url("../images/skateboard-images/sk8er-3.png") no-repeat;
+  background-size: cover;
+
+  .rodneyName{
+    height: 200px;
+    padding-top: 25px;
+  }
+}
+
+.stevePic{
+  background: url("../images/skateboard-images/sk8er-1.png") no-repeat;
+  background-size: cover;
+
+  .steveName{
+    height: 400px;
+    padding-top: 160px;
+  }
+}
+
+.tommyPic{
+  background: url("../images/skateboard-images/sk8er-2.png") no-repeat;
+  background-size: cover;
+
+  .tommyName{
+    height: 630px;
+    width: 100%;
+    padding-top: 25px;
+  }
+}
+
+
+//////////////////////////////// SKATEBOARDS ///////////////////////////////////
+.skateboard-pictures{
   background-color: white;
+  margin-bottom: 30px;
+  padding-left: 2.5vw;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+
+  img{
+    width: 8vw;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+  }
 }
 
-.contact-us{
-  margin-top: 25px;
+
+//////////////////////////// ENTIRE BOTTOM SECTION /////////////////////////////
+.bottom-section{
+  background-color: white;
+  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
+
+///////////////////////////// CONTACT-US BLURB /////////////////////////////////
 .more-info{
   font-size: 20px;
 }
@@ -280,36 +295,13 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
   line-height: 28px;
 }
 
-// form social are the social links inside the form.
-.bottom-section{
-  padding-top: 20px;
-}
 
-.form-social{
-  position: relative;
-  float: left;
+///////////////////////////// BOTTOM - SOCIAL BUTTONS //////////////////////////
+.bottom-social-links{
+  // position: relative;
+  // float: left;
   padding: 0;
   margin-top: 2px;
-}
-
-.enter-contact-info{
-  margin-top: 18px;
-}
-
-.message-line{
-  height: 150px;
-}
-
-.submit-button{
-  position: relative;
-  float: right;
-  background-color: rgb(197, 0, 23);
-  color: white;
-  width: 200px;
-}
-
-.bottom-social{
-  padding: 0;
 }
 
 @mixin form-social($color){
@@ -319,7 +311,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
   padding-bottom: 10px;
   color: #9D9D9D;
   text-align: center;
-  width: 38px;
+  width: 100%;
 
   &:hover{
     background-color: lighten($color, 20);
@@ -339,6 +331,48 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap";
   @include form-social(#757575);
 }
 
+
+///////////////////////////////// CONTACT FORM /////////////////////////////////
 .contact-form{
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+
+  .contact-info{
+    input{
+      width: 100%;
+    }
+  }
+}
+
+.name{
+  margin-top: 5px;
+}
+
+.name,
+.email{
+
+}
+
+.email,
+.message,
+.submit{
+  margin-top: 15px;
+}
+
+.name,
+.email,
+.message,
+.submit{
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.message{
+  height: 150px;
+}
+
+.submit{
+  float: right;
+  background-color: rgb(197, 0, 23);
+  color: white;
+  width: 40%;
 }
