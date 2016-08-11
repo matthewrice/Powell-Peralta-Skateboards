@@ -6016,14 +6016,11 @@ button.close {
     width: 100%;
     padding-top: 25px; }
 
-.skateboard-pictures {
+.skateboards {
   background-color: white;
-  margin-bottom: 30px;
-  padding-left: 2.5vw;
-  padding-top: 2.5vw;
-  padding-bottom: 2.5vw; }
-  .skateboard-pictures img {
-    width: 8vw; }
+  margin-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 .bottom-section {
   background-color: white;
